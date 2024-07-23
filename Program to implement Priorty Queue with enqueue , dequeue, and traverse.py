@@ -2,7 +2,7 @@ class priorityQueue:
     def __init__(self):
         self.queue={}
         self.size = int(input("Enter the size of queue: "))
-    
+        
     def is_empty(self):
         return len(self.queue)==0
 
