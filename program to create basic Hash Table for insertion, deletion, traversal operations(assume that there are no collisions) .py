@@ -1,6 +1,6 @@
 class HashTable:
     def size(self, size):
-        """Initialize the hash table with a given size."""
+        #Initialize the hash table with a given size.
         self.size = size
         self.table = [None] * size
     def hash_function(self, key):
